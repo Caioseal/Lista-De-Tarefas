@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 300px;
+    margin: 0 550px;
+}
+
+.logo {
+    float: left;
+}
+
+header h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+nav {
+    width: 300px;
+    margin: 0 550px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+nav a {
+    margin: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 750px;
+    margin: 40px 370px;
+}
+
+section {
+    width: 500px;
+    height: auto;
+    margin: 40px 100px;
+    padding: 5px 5px 20px 20px;
+    background-color: #dbd9d970;
+    border-radius: 20px;
+}
+
+section h2 {
+    font-size: 19px;
+}
+
+#input-nova-tarefa {
+    font-family: "Lato", sans-serif;
+    padding: 0px 10px;
+    height: 40px;
+    width: 380px;
+    border-radius: 5px;
+    border: 1px solid #0CCBDE;
+}
+
+#button-nova-tarefa {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 25px;
+    color: #fff;
+    background-color: #0CCBDE;
+}
+
+#button-nova-tarefa:hover {
+    transform: scale(1.1);
+}
+
+#lista-de-tarefas ul {
+    margin: 0;
+    padding: 0;
+}
+
+#lista-de-tarefas li {
+    list-style: none;
+    padding: 20px 10px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#lista-de-tarefas li:hover {
+    background-color: #0CCBDE;
+    color: #FFFFFF;
+}
+
+.aberta{
+    text-decoration: none;
+}
+  
+.concluida{
+      text-decoration: line-through;
+}
+
+.btnDelete {
+    height: 20px;
+    float: right;
+}
